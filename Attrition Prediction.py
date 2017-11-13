@@ -63,6 +63,7 @@ df['YearsSinceLastPromotion'] = min_max_scaler.fit_transform(df.YearsSinceLastPr
 df['YearsWithCurrManager'] = min_max_scaler.fit_transform(df.YearsWithCurrManager.values.reshape(-1, 1))
 
 
+
 amount_of_features = len(df.columns)
 
 data = df.as_matrix()
@@ -70,7 +71,7 @@ result = []
 for x in data:
     result.append(x)
 result = np.array(result)
-row = round(0.85 * result.shape[0])
+row = round(0.8 * result.shape[0])
 
 X_train = result[:row]
 Y_train = Rtrain.as_matrix()[:row]
@@ -88,6 +89,8 @@ model.compile(loss='mse', optimizer='adam', metrics=['accuracy'])
 model.summary()
 
 model.fit(X_train, Y_train, batch_size=500, epochs=1000, validation_split=0.2, verbose=2)
+
+
 # Saving
 # serialize model to JSON
 model_json = model.to_json()
@@ -97,17 +100,7 @@ with open("Model.json", "w") as json_file:
 model.save_weights("Model.h5")
 print("Saved model to disk")
 
-# # load json and create model
-# json_file = open("Model.json", 'r')
-# loaded_model_json = json_file.read()
-# json_file.close()
-# model = model_from_json(loaded_model_json)
-# # load weights into new model
-# model.load_weights("Model.h5")
-# model.compile(loss='mse', optimizer='adam', metrics=['accuracy'])
-# print("Loaded model from disk")
-#
-# model.summary()
+
 
 trainScore = model.evaluate(X_train, Y_train, verbose=0)
 print('Train Score: %.5f MSE (%.2f RMSE)' % (trainScore[0], math.sqrt(trainScore[0])))

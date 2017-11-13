@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27adf7e7-5ff2-42e3-9999-c5cb09194070" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model.h5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__MACOSX/._HR_Employee_Attrition_Data-1.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ORMAE.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Attrition Prediction.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EDA.R" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HR_Employee_Attrition_Data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Model.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml-latest-small/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml-latest-small/links.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml-latest-small/movies.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml-latest-small/ratings.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml-latest-small/tags.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RecomenderSystem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/links.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movies.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ratings.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model.h5" afterPath="$PROJECT_DIR$/Model.h5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Attrition Prediction.py" afterPath="$PROJECT_DIR$/Attrition Prediction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EDA.R" afterPath="$PROJECT_DIR$/EDA.R" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HR_Employee_Attrition_Data.csv" afterPath="$PROJECT_DIR$/HR_Employee_Attrition_Data.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml-latest-small/links.csv" afterPath="$PROJECT_DIR$/ml-latest-small/links.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml-latest-small/movies.csv" afterPath="$PROJECT_DIR$/ml-latest-small/movies.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml-latest-small/ratings.csv" afterPath="$PROJECT_DIR$/ml-latest-small/ratings.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml-latest-small/tags.csv" afterPath="$PROJECT_DIR$/ml-latest-small/tags.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +26,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ORMAE$Attrition_Prediction.coverage" NAME="Attrition Prediction Coverage Results" MODIFIED="1508942504369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ORMAE$Attrition_Prediction.coverage" NAME="Attrition Prediction Coverage Results" MODIFIED="1509270362673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ORMAE$RecomenderSystem.coverage" NAME="RecomenderSystem Coverage Results" MODIFIED="1510573057765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -37,18 +37,44 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="Movies.db" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="Movies.db" type="e3449647:DbNodeDescriptor" />
+        <item name="main" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Attrition Prediction.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Attrition Prediction.py">
+      <file leaf-file-name="RecomenderSystem.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RecomenderSystem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="132" column="21" lean-forward="true" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+            <state relative-caret-position="1962">
+              <caret line="109" column="21" lean-forward="false" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#53#63#0" expanded="true" />
+                <marker date="1510573531038" expanded="true" signature="282:321" ph="CREATE TABLE... t" />
+                <marker date="1510573531038" expanded="true" signature="282:324" ph="CREATE TABLE... links" />
+                <marker date="1510573531038" expanded="true" signature="282:364" ph="CREATE TABLE... links" />
+                <marker date="1510573531038" expanded="true" signature="589:649" ph="INSERT INTO links... " />
+                <marker date="1510573531038" expanded="true" signature="708:790" ph="CREATE TABLE... movies" />
+                <marker date="1510573531038" expanded="true" signature="1050:1110" ph="INSERT INTO movies... " />
+                <marker date="1510573531038" expanded="true" signature="1169:1270" ph="CREATE TABLE... ratings" />
+                <marker date="1510573531038" expanded="true" signature="1548:1624" ph="INSERT INTO ratings... " />
+                <marker date="1510573531038" expanded="true" signature="1683:1780" ph="CREATE TABLE... tags" />
+                <marker date="1510573531038" expanded="true" signature="1745:1780" ph="CREATE TABLE... tags" />
+                <marker date="1510573531038" expanded="true" signature="1747:1780" ph="CREATE TABLE... links" />
+                <marker date="1510573531038" expanded="true" signature="2052:2122" ph="INSERT INTO links... " />
+                <marker date="1510573531038" expanded="true" signature="2653:2755" ph="SELECT movie... movies" />
+                <marker date="1510573531038" expanded="true" signature="2653:2828" ph="SELECT movie... movies" />
+                <marker date="1510573531038" expanded="true" signature="3314:3348" ph="SELECT DISTI... movies" />
+                <marker date="1510573531038" expanded="true" signature="3827:3996" ph="SELECT movie... movies" />
               </folding>
             </state>
           </provider>
@@ -63,6 +89,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\n\ndatabase \= sqlite3\.connect\(\&quot;Movies\.db\&quot;\)\ndb \= database\.cursor\(\)</find>
+      <find>VARCHAR</find>
+      <find>NUMBER</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>NUMBER</replace>
+      <replace>INTEGER</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -70,6 +108,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Attrition Prediction.py" />
+        <option value="src:table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.ratings" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ea46eae-d8dc-4fc4-af46-92466946308e/console.sql" />
+        <option value="$PROJECT_DIR$/RecomenderSystem.py" />
       </list>
     </option>
   </component>
@@ -80,10 +121,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="61" />
-    <option name="y" value="34" />
-    <option name="width" value="935" />
-    <option name="height" value="1056" />
+    <option name="x" value="50" />
+    <option name="y" value="-11" />
+    <option name="width" value="1871" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -101,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,14 +154,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ml-latest-small/movies.csv" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;Sybase (jTds)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -133,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Attrition Prediction">
+  <component name="RunManager" selected="Python.RecomenderSystem">
     <configuration name="Attrition Prediction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,9 +199,32 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="RecomenderSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ORMAE" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RecomenderSystem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.Attrition Prediction" />
+      <item index="1" class="java.lang.String" itemvalue="Python.RecomenderSystem" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.Attrition Prediction" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.RecomenderSystem" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Attrition Prediction" />
       </list>
     </recent_temporary>
   </component>
@@ -172,20 +242,31 @@
       <option name="presentableId" value="Default" />
       <updated>1508845143367</updated>
     </task>
+    <task id="LOCAL-00001" summary="This is an program that predicts the attrition of an employee based on different aspects.">
+      <created>1509018756515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509018756515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="-11" width="1871" height="1092" extended-state="6" />
+    <frame x="51" y="-4" width="1869" height="1084" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18924849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6758091" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5266458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66910994" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.452356" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5172775" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19802523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2342293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.452356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -194,7 +275,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -204,18 +284,145 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is an program that predicts the attrition of an employee based on different aspects." />
+    <option name="LAST_COMMIT_MESSAGE" value="This is an program that predicts the attrition of an employee based on different aspects." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Attrition Prediction.py">
+    <entry file="file://$PROJECT_DIR$/RecomenderSystem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#53#63#0" expanded="true" />
+            <marker date="1510573531038" expanded="true" signature="282:321" ph="CREATE TABLE... t" />
+            <marker date="1510573531038" expanded="true" signature="282:324" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="282:364" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="589:649" ph="INSERT INTO links... " />
+            <marker date="1510573531038" expanded="true" signature="708:790" ph="CREATE TABLE... movies" />
+            <marker date="1510573531038" expanded="true" signature="1050:1110" ph="INSERT INTO movies... " />
+            <marker date="1510573531038" expanded="true" signature="1169:1270" ph="CREATE TABLE... ratings" />
+            <marker date="1510573531038" expanded="true" signature="1548:1624" ph="INSERT INTO ratings... " />
+            <marker date="1510573531038" expanded="true" signature="1683:1780" ph="CREATE TABLE... tags" />
+            <marker date="1510573531038" expanded="true" signature="1745:1780" ph="CREATE TABLE... tags" />
+            <marker date="1510573531038" expanded="true" signature="1747:1780" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="2052:2122" ph="INSERT INTO links... " />
+            <marker date="1510573531038" expanded="true" signature="2653:2755" ph="SELECT movie... movies" />
+            <marker date="1510573531038" expanded="true" signature="2653:2828" ph="SELECT movie... movies" />
+            <marker date="1510573531038" expanded="true" signature="3314:3348" ph="SELECT DISTI... movies" />
+            <marker date="1510573531038" expanded="true" signature="3827:3996" ph="SELECT movie... movies" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RecomenderSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#53#63#0" expanded="true" />
+            <marker date="1510573531038" expanded="true" signature="282:321" ph="CREATE TABLE... t" />
+            <marker date="1510573531038" expanded="true" signature="282:324" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="282:364" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="589:649" ph="INSERT INTO links... " />
+            <marker date="1510573531038" expanded="true" signature="708:790" ph="CREATE TABLE... movies" />
+            <marker date="1510573531038" expanded="true" signature="1050:1110" ph="INSERT INTO movies... " />
+            <marker date="1510573531038" expanded="true" signature="1169:1270" ph="CREATE TABLE... ratings" />
+            <marker date="1510573531038" expanded="true" signature="1548:1624" ph="INSERT INTO ratings... " />
+            <marker date="1510573531038" expanded="true" signature="1683:1780" ph="CREATE TABLE... tags" />
+            <marker date="1510573531038" expanded="true" signature="1745:1780" ph="CREATE TABLE... tags" />
+            <marker date="1510573531038" expanded="true" signature="1747:1780" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="2052:2122" ph="INSERT INTO links... " />
+            <marker date="1510573531038" expanded="true" signature="2653:2755" ph="SELECT movie... movies" />
+            <marker date="1510573531038" expanded="true" signature="2653:2828" ph="SELECT movie... movies" />
+            <marker date="1510573531038" expanded="true" signature="3314:3348" ph="SELECT DISTI... movies" />
+            <marker date="1510573531038" expanded="true" signature="3827:3996" ph="SELECT movie... movies" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ea46eae-d8dc-4fc4-af46-92466946308e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RecomenderSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#53#63#0" expanded="true" />
+            <marker date="1510573531038" expanded="true" signature="282:321" ph="CREATE TABLE... t" />
+            <marker date="1510573531038" expanded="true" signature="282:324" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="282:364" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="589:649" ph="INSERT INTO links... " />
+            <marker date="1510573531038" expanded="true" signature="708:790" ph="CREATE TABLE... movies" />
+            <marker date="1510573531038" expanded="true" signature="1050:1110" ph="INSERT INTO movies... " />
+            <marker date="1510573531038" expanded="true" signature="1169:1270" ph="CREATE TABLE... ratings" />
+            <marker date="1510573531038" expanded="true" signature="1548:1624" ph="INSERT INTO ratings... " />
+            <marker date="1510573531038" expanded="true" signature="1683:1780" ph="CREATE TABLE... tags" />
+            <marker date="1510573531038" expanded="true" signature="1745:1780" ph="CREATE TABLE... tags" />
+            <marker date="1510573531038" expanded="true" signature="1747:1780" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="2052:2122" ph="INSERT INTO links... " />
+            <marker date="1510573531038" expanded="true" signature="2653:2755" ph="SELECT movie... movies" />
+            <marker date="1510573531038" expanded="true" signature="2653:2828" ph="SELECT movie... movies" />
+            <marker date="1510573531038" expanded="true" signature="3314:3348" ph="SELECT DISTI... movies" />
+            <marker date="1510573531038" expanded="true" signature="3827:3996" ph="SELECT movie... movies" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RecomenderSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#53#63#0" expanded="true" />
+            <marker date="1510573531038" expanded="true" signature="282:321" ph="CREATE TABLE... t" />
+            <marker date="1510573531038" expanded="true" signature="282:324" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="282:364" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="589:649" ph="INSERT INTO links... " />
+            <marker date="1510573531038" expanded="true" signature="708:790" ph="CREATE TABLE... movies" />
+            <marker date="1510573531038" expanded="true" signature="1050:1110" ph="INSERT INTO movies... " />
+            <marker date="1510573531038" expanded="true" signature="1169:1270" ph="CREATE TABLE... ratings" />
+            <marker date="1510573531038" expanded="true" signature="1548:1624" ph="INSERT INTO ratings... " />
+            <marker date="1510573531038" expanded="true" signature="1683:1780" ph="CREATE TABLE... tags" />
+            <marker date="1510573531038" expanded="true" signature="1745:1780" ph="CREATE TABLE... tags" />
+            <marker date="1510573531038" expanded="true" signature="1747:1780" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="2052:2122" ph="INSERT INTO links... " />
+            <marker date="1510573531038" expanded="true" signature="2653:2755" ph="SELECT movie... movies" />
+            <marker date="1510573531038" expanded="true" signature="2653:2828" ph="SELECT movie... movies" />
+            <marker date="1510573531038" expanded="true" signature="3314:3348" ph="SELECT DISTI... movies" />
+            <marker date="1510573531038" expanded="true" signature="3827:3996" ph="SELECT movie... movies" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Attrition Prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Attrition Prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Attrition Prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -223,18 +430,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
           <caret line="115" column="26" lean-forward="false" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Attrition Prediction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="132" column="21" lean-forward="true" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+        <state relative-caret-position="797">
+          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0fdfe76d-4bbb-42e6-8f6e-34e170d3206c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/links.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.links">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.links">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.links">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.links">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.links">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.links">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.tags">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.movies">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.ratings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.ratings">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.tags">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d1550819/1ea46eae-d8dc-4fc4-af46-92466946308e/main.movies">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ea46eae-d8dc-4fc4-af46-92466946308e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RecomenderSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1962">
+          <caret line="109" column="21" lean-forward="false" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#53#63#0" expanded="true" />
+            <marker date="1510573531038" expanded="true" signature="282:321" ph="CREATE TABLE... t" />
+            <marker date="1510573531038" expanded="true" signature="282:324" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="282:364" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="589:649" ph="INSERT INTO links... " />
+            <marker date="1510573531038" expanded="true" signature="708:790" ph="CREATE TABLE... movies" />
+            <marker date="1510573531038" expanded="true" signature="1050:1110" ph="INSERT INTO movies... " />
+            <marker date="1510573531038" expanded="true" signature="1169:1270" ph="CREATE TABLE... ratings" />
+            <marker date="1510573531038" expanded="true" signature="1548:1624" ph="INSERT INTO ratings... " />
+            <marker date="1510573531038" expanded="true" signature="1683:1780" ph="CREATE TABLE... tags" />
+            <marker date="1510573531038" expanded="true" signature="1745:1780" ph="CREATE TABLE... tags" />
+            <marker date="1510573531038" expanded="true" signature="1747:1780" ph="CREATE TABLE... links" />
+            <marker date="1510573531038" expanded="true" signature="2052:2122" ph="INSERT INTO links... " />
+            <marker date="1510573531038" expanded="true" signature="2653:2755" ph="SELECT movie... movies" />
+            <marker date="1510573531038" expanded="true" signature="2653:2828" ph="SELECT movie... movies" />
+            <marker date="1510573531038" expanded="true" signature="3314:3348" ph="SELECT DISTI... movies" />
+            <marker date="1510573531038" expanded="true" signature="3827:3996" ph="SELECT movie... movies" />
           </folding>
         </state>
       </provider>
