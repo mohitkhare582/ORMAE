@@ -45,7 +45,6 @@ def createdatabase():
                  row['timestamp'].encode('utf-8')]
         db.execute("INSERT INTO tags (userId, movieId, tag, timestamp) VALUES (?, ?, ?, ?);", to_db)
     database.commit()
-    database.close()
 
 
 #Menu for recommendation
@@ -71,6 +70,7 @@ def nameRecom(mName):
     table = PrettyTable(['MovieId', 'Movie Name', 'Genre', 'Rating'])
     for record in mList:
         table.add_row([record[0].decode('utf-8'), record[1].decode('utf-8'), record[2].decode('utf-8'), record[3]])
+    table.align = 'l'
     print(table)
 
 
@@ -111,10 +111,12 @@ def genreRecom():
         if flag:
             table.add_row(
                 [record[0].decode('utf-8'), record[1].decode('utf-8'), record[2].decode('utf-8'), record[3]])
+    table.align = 'l'
     print(table)
-
 
 #main Fuction
 if __name__ == '__main__':
     createdatabase()
-    Recom()
+    while True:
+        Recom()
+        print("Search Another Movie: \n")
